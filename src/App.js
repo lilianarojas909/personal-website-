@@ -51,7 +51,9 @@ function App() {
         <div id="Abou"> <About/> </div>
         <br></br>
         <hr className="Break"></hr>
-        <div id="Exp"> <Experience/> </div>
+        <div id="Exp">
+           <Experience title={item["name"]} img={item["img"]} description={item["description"]}/> 
+        </div>
         <hr className="Break"></hr>
         <div id="Proj"> <Project/> </div>
         <hr className="Break"></hr>
