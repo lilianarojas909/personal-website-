@@ -1,0 +1,131 @@
+@font-face {
+    src: url(fonts/GrandHotel-Regular.ttf);
+    font-family: Slay;
+  }
+
+  @font-face {
+    src: url(fonts/Domine-Medium.ttf);
+    font-family: DomineMed;
+  }
+
+  @font-face {
+    src: url(fonts/Domine-SemiBold.ttf);
+    font-family: Domine;
+  }
+
+.ExperienceHeader {
+    font-family: Slay;
+    font-style: normal;
+    font-size: 5em;
+    color: rgba(254, 186, 211, 0.54);
+    text-align: left;
+    padding-top: 1%;
+    padding-left:5%; 
+    padding-bottom: 1%;
+    /* background-color: red; */
+}
+.Top {
+    display: flex;
+    
+}
+
+.Bottom {
+    display: flex;
+}
+
+.top-left {
+    width: 45%;
+    background-color: rgba(254, 186, 211, 0.54);;
+    float: left;
+    border-radius: 10px;
+    margin: 3% 5% 3%;
+}
+
+.top-right {
+    width: 45%;
+    background-color: rgba(254, 186, 211, 0.54);;
+    float: right;
+    border-radius: 10px;
+    margin: 3% 5% 3%;
+}
+
+.bottom-left {
+    width: 45%;
+    background-color: rgba(254, 186, 211, 0.54);;
+    float: left;
+    border-radius: 10px;
+    margin: 3% 5% 3%;
+}
+
+.bottom-right {
+    width: 45%;
+    background-color: rgba(254, 186, 211, 0.54);;
+    float: right;
+    border-radius: 10px;
+    margin: 3% 5% 3%;
+}
+
+
+.Jane {
+    width: 15%;
+    height: 48%;
+
+    float: left;
+    mix-blend-mode: multiply;
+    padding: 5%;
+}
+
+.Code {
+    width: 15%;
+    height: 48%;
+
+    float: left;
+    mix-blend-mode: multiply;
+    padding: 5%;
+}
+
+.Square {
+    width: 15%;
+    height: 48%;
+
+    float: left;
+    mix-blend-mode: multiply;
+    padding: 5%;
+    
+}
+
+.EECS {
+    width: 15%;
+    height: 30%;
+
+    float: left;
+    mix-blend-mode: multiply;
+    padding: 5%;
+}
+
+.Inside-Top {
+
+    display:flex;
+
+}
+
+.Title {
+    align-items: center;
+    text-align: center;
+    font-family: 'Domine';
+    font-style: normal;
+    font-size: 1.25em;
+    padding-top: 3%;
+    padding-left: 2.5%;
+
+}
+
+.Paragraph-Body {
+
+    font-size: 1em;
+    padding-left:4%;
+    padding-right:4%;
+    padding-bottom: 2%;
+    font-family: 'DomineMed';
+    font-style: normal;
+}

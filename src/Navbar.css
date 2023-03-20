@@ -1,0 +1,50 @@
+@font-face {
+  src: url(fonts/GrandHotel-Regular.ttf);
+  font-family: Slay;
+}
+a:link {
+  text-decoration: none;
+  color: none;
+  cursor:pointer;
+
+}
+
+a:hover {
+  background-color: hotpink;
+  border-radius: 10px;
+
+} 
+
+.Navbar {
+  width: 100%;
+  height: 44%;
+  display: flex; /* Makes the contact, exp, etc. horizontal */
+  flex-direction: row-reverse;
+
+  /* background-color: red; */
+}
+
+
+.image {
+  width: 100%;
+  height: 45%;
+  position: absolute;
+  z-index: -999;
+  /* background-color: red; */
+  
+  }
+
+.navbar-links {
+  font-family: Slay;
+  font-style: normal;
+  font-size: 2em;
+  display: flex;
+ 
+  padding-right: 5%;
+  padding-top: 2%;
+  justify-content: space-between;
+  width: 50%;
+
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0;
+}

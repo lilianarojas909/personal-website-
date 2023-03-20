@@ -1,4 +1,61 @@
 .App {
+width: 100vw;
+height: 100vh;
+}
+
+.test {
+  width: 100%;
+  height: 100%;
+
+}
+
+.Break {
+  border: none;
+
+  width: 70%;
+  height:0.19%;
+  background-color:rgba(254, 186, 211, 0.54);
+
+  margin-top: 9%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.App {
   text-align: center;
 }
 

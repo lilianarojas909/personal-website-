@@ -1,0 +1,53 @@
+@font-face {
+    src: url(fonts/GrandHotel-Regular.ttf);
+    font-family: Slay;
+  }
+
+.ProjectHeader {
+    font-family: 'Slay';
+    font-style: normal;
+    font-size: 5em;
+    color: rgba(254, 186, 211, 0.54);
+    text-align: left;
+    padding-top: 1%;
+    padding-left:5%; 
+    padding-bottom: 1%;
+}
+.ProjectBehind {
+    display: flex;
+    align-items: center;
+}
+.SideBar {
+    width: 25%;
+    background-color: rgba(254, 186, 211, 0.54);;
+    float: left;
+    border-radius: 10px;
+    margin: 3% 5% 3%;
+}
+
+.SideBar-Top {
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.ProjectParagraph {
+    font-family: 'DomineMed';
+    font-style: normal;
+    font-size: 1.0em;
+    line-height: 200%;
+    padding: 5%;
+}
+
+.ProjectDesc {
+    width:50%;
+    float:right;
+    background: rgba(255, 190, 55, 0.17);
+    border-radius: 10px;
+
+    font-family: 'DomineMed';
+    font-style: normal;
+    font-size: 1.0em;
+    line-height: 200%;
+    padding: 4%;
+}

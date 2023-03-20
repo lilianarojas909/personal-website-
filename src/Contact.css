@@ -1,0 +1,19 @@
+@font-face {
+    src: url(fonts/GrandHotel-Regular.ttf);
+    font-family: Slay;
+  }
+.Growth {
+    font-family: Slay;
+    font-size: 4em;
+    padding: 6%;
+}
+.ContactBackground {
+    width: 100%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    font-family: Slay;
+    font-size: 4em;
+
+    align-items: center;
+    background-color: rgba(254, 186, 211, 0.54);;
+}

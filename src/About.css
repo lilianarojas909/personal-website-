@@ -1,0 +1,66 @@
+
+@font-face {
+    src: url(fonts/GrandHotel-Regular.ttf);
+    font-family: Slay;
+  }
+
+.About {
+    width: 100%;
+    display: flex;
+    /* background-color: beige; */
+    
+}
+.Lili {
+    width: 28%;
+    height: 28%;
+    /* background-color: red; */
+    padding-left: 5%;
+
+}
+
+.Items {
+
+    text-align: center;
+    padding-left: 10%;
+    padding-top: 1%;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.Head {
+    width: 90%;
+    height: 25%;
+
+    font-family: 'Domine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5em;
+    
+    color: #DD29C0;
+    /* background-color: aliceblue; */
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+   
+    padding-top: 12%;
+    margin: 0;
+}
+
+.Body {
+    width: 90%;
+    height: 30%;
+
+    font-family: 'DomineMed';
+    font-style: normal;
+
+    font-size: 1.25em;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* background-color: yellow; */
+    color: #000000; 
+
+    padding: 0;
+    
+}
+
