@@ -7,22 +7,18 @@ import Contact from './Contact.js';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
-const tableMap = {
-  0: process.env.REACT_APP_DEV_TABLE_ID,
-  1: process.env.REACT_APP_ITEM_TABLE_ID,
-}
 
 function App() {
 
-  let [tableID, setTableID] = useState(1);
   let [experiences, setExperiences] = useState([]); //let itemboxes be set to an empty array
 
   useEffect(() => {
-    const url = `https://api.airtable.com/v0/${process.env.REACT_APP_BASE_ID}/${tableMap[tableID]}`;
+    const url = `https://api.airtable.com/v0/${process.env.base_id}/${process.env.table_id}`;
+
 
     const config = {
       headers : {
-        "Authorization" : `Bearer ${process.env.REACT_APP_AUTH_TOKEN}`,
+        "Authorization" : `Bearer ${process.env.api_key}`,
       }
     };
 
@@ -40,7 +36,7 @@ function App() {
         }
         items.push(item);
       });
-      setExperiences(items);
+      setExperience(items);
     })
     .catch(err=> console.log(err))
   })
@@ -51,9 +47,7 @@ function App() {
         <div id="Abou"> <About/> </div>
         <br></br>
         <hr className="Break"></hr>
-        <div id="Exp">
-           <Experience title={item["name"]} img={item["img"]} description={item["description"]}/> 
-        </div>
+        <div id="Exp"> <Experience/> </div>
         <hr className="Break"></hr>
         <div id="Proj"> <Project/> </div>
         <hr className="Break"></hr>

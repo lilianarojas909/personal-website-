@@ -16,11 +16,11 @@ function Experience(props) {
               <p>Jane Street FOCUS Program</p>
               <p>New York City, NY</p>
             </div>
-          </div> 
+        </div> 
           <div className='Paragraph-Body'>
             <p>Jane Street invited myself and 50 other students who identify with an underrepresented ethnic or racial minority group to meet and learn more about the trading, software engineering, and business development teams.</p>
           </div>
-        </div>
+      </div>
         <div className="top-right"> 
         <div className="Inside-Top">
             <img className="Code" src={Code} ></img>
@@ -57,7 +57,7 @@ function Experience(props) {
             </div>
           </div> 
           <div className='Paragraph-Body'>
-            <p>Jane Street invited myself and 50 other students who identify with an underrepresented ethnic or racial minority group to meet and learn more about the trading, software engineering, and business development teams.</p>
+            <p>Provide administrative support to the head of the UC Berkeley PLAIT lab as needed; manage specific documentation of various needs and draft and submit emails necessary to clarify financial inquiries</p>
           </div>
         </div>
       </div>
