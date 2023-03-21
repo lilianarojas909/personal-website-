@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.03c8c156.css",
-    "main.js": "/static/js/main.0832ab0b.js",
-    "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
-    "static/media/insta.png": "/static/media/insta.fce37a39c54bb756d04b.png",
-    "static/media/lili.png": "/static/media/lili.550c24d64e7fb2a4065f.png",
-    "static/media/basket.png": "/static/media/basket.be3e773ea9aa56b65091.png",
-    "static/media/Domine-Medium.ttf": "/static/media/Domine-Medium.869ceb14b8cb13ca98c8.ttf",
-    "static/media/Domine-SemiBold.ttf": "/static/media/Domine-SemiBold.0d191471c262d2e4c8a6.ttf",
-    "static/media/croiss.jpeg": "/static/media/croiss.a346935ad8f51ff42d3b.jpeg",
-    "static/media/GrandHotel-Regular.ttf": "/static/media/GrandHotel-Regular.ecf0519e05e1b7500b28.ttf",
-    "static/media/KittyBitty.webp": "/static/media/KittyBitty.50bda1b3cad67fd783c6.webp",
-    "static/media/navbar.png": "/static/media/navbar.1901f7933056696c4b18.png",
-    "static/media/Code.png": "/static/media/Code.4ad3422a3624c9d29d0f.png",
-    "static/media/EECS.png": "/static/media/EECS.dec5fd0e98b444a16787.png",
-    "static/media/Jane.png": "/static/media/Jane.16f20feebe412a0033d0.png",
-    "static/media/linked.png": "/static/media/linked.f1d668322dd800064ae5.png",
-    "static/media/donut.jpg": "/static/media/donut.33e458bf3198a3bf6f4c.jpg",
-    "index.html": "/index.html",
-    "main.03c8c156.css.map": "/static/css/main.03c8c156.css.map",
-    "main.0832ab0b.js.map": "/static/js/main.0832ab0b.js.map",
-    "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
+    "main.css": "/personal-website/static/css/main.07233fc4.css",
+    "main.js": "/personal-website/static/js/main.39721d22.js",
+    "static/js/787.5809834d.chunk.js": "/personal-website/static/js/787.5809834d.chunk.js",
+    "static/media/insta.png": "/personal-website/static/media/insta.fce37a39c54bb756d04b.png",
+    "static/media/lili.png": "/personal-website/static/media/lili.550c24d64e7fb2a4065f.png",
+    "static/media/basket.png": "/personal-website/static/media/basket.be3e773ea9aa56b65091.png",
+    "static/media/Domine-Medium.ttf": "/personal-website/static/media/Domine-Medium.869ceb14b8cb13ca98c8.ttf",
+    "static/media/Domine-SemiBold.ttf": "/personal-website/static/media/Domine-SemiBold.0d191471c262d2e4c8a6.ttf",
+    "static/media/croiss.jpeg": "/personal-website/static/media/croiss.a346935ad8f51ff42d3b.jpeg",
+    "static/media/GrandHotel-Regular.ttf": "/personal-website/static/media/GrandHotel-Regular.ecf0519e05e1b7500b28.ttf",
+    "static/media/KittyBitty.webp": "/personal-website/static/media/KittyBitty.50bda1b3cad67fd783c6.webp",
+    "static/media/navbar.png": "/personal-website/static/media/navbar.1901f7933056696c4b18.png",
+    "static/media/Code.png": "/personal-website/static/media/Code.4ad3422a3624c9d29d0f.png",
+    "static/media/EECS.png": "/personal-website/static/media/EECS.dec5fd0e98b444a16787.png",
+    "static/media/Jane.png": "/personal-website/static/media/Jane.16f20feebe412a0033d0.png",
+    "static/media/linked.png": "/personal-website/static/media/linked.f1d668322dd800064ae5.png",
+    "static/media/donut.jpg": "/personal-website/static/media/donut.33e458bf3198a3bf6f4c.jpg",
+    "index.html": "/personal-website/index.html",
+    "main.07233fc4.css.map": "/personal-website/static/css/main.07233fc4.css.map",
+    "main.39721d22.js.map": "/personal-website/static/js/main.39721d22.js.map",
+    "787.5809834d.chunk.js.map": "/personal-website/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03c8c156.css",
-    "static/js/main.0832ab0b.js"
+    "static/css/main.07233fc4.css",
+    "static/js/main.39721d22.js"
   ]
 }
