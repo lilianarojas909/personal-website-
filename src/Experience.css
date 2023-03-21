@@ -89,7 +89,7 @@
     height: 48%;
 
     float: left;
-    mix-blend-mode: multiply;
+
     padding: 5%;
     
 }
@@ -128,4 +128,10 @@
     padding-bottom: 2%;
     font-family: 'DomineMed';
     font-style: normal;
+}
+
+.croiss {
+    width: 10%;
+    height: 10%;
+    padding-left: 80%;
 }

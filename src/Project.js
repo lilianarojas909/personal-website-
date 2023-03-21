@@ -1,5 +1,6 @@
 import './Project.css';
 import Square from './assets/Square.png';
+import basket from './assets/basket.png';
 
 function Project(props) {
   return (
@@ -23,7 +24,7 @@ backend development, which inspired me to apply to my upcoming internship. I rea
                     ● Designed and constructed an algorithm backed by a tree-based data structures that utilized the map interface of Java to handle and clean extremely large data files</p>
             </div>
         </div>
-
+        <a href="https://www.nerdwallet.com/article/small-business/how-to-start-a-bakery">  <img className="basket" src={basket} alt=""></img></a>
     </div>
   );
 }

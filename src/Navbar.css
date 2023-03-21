@@ -42,9 +42,12 @@ a:hover {
   display: flex;
  
   padding-right: 5%;
+  padding-left: 70%;
   padding-top: 2%;
   justify-content: space-between;
   width: 50%;
+
+  
 
   position: fixed; /* Set the navbar to fixed position */
   top: 0;

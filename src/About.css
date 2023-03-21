@@ -22,7 +22,7 @@
 
     text-align: center;
     padding-left: 10%;
-    padding-top: 1%;
+    padding-top: 0%;
     justify-content: space-between;
     width: 100%;
 
@@ -64,3 +64,9 @@
     
 }
 
+.donut {
+    width:20%;
+    height: 30%;
+    padding-left: 60%;
+
+}

@@ -1,4 +1,5 @@
 import './App.css';
+import ItemBox from './components/ItemBox';
 import Navbar from './Navbar.js';
 import About from './About.js';
 import Experience from './Experience.js';
@@ -10,7 +11,7 @@ import { useEffect, useState } from 'react';
 
 function App() {
 
-  let [experiences, setExperiences] = useState([]); //let itemboxes be set to an empty array
+  let [itemBoxes, setItemBoxes] = useState([]); //let itemboxes be set to an empty array
 
   useEffect(() => {
     const url = `https://api.airtable.com/v0/${process.env.base_id}/${process.env.table_id}`;
@@ -36,7 +37,7 @@ function App() {
         }
         items.push(item);
       });
-      setExperience(items);
+      setItemBoxes(items);
     })
     .catch(err=> console.log(err))
   })
@@ -46,8 +47,13 @@ function App() {
          
         <div id="Abou"> <About/> </div>
         <br></br>
+
         <hr className="Break"></hr>
-        <div id="Exp"> <Experience/> </div>
+
+        <div id="Exp"> 
+          <Experience/>
+        </div>
+
         <hr className="Break"></hr>
         <div id="Proj"> <Project/> </div>
         <hr className="Break"></hr>

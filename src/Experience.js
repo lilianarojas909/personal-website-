@@ -3,6 +3,7 @@ import Jane from './assets/Jane.png';
 import EECS from './assets/EECS.png';
 import Code from './assets/Code.png';
 import Square from './assets/Square.png';
+import croiss from './assets/croiss.jpeg';
 
 function Experience(props) {
   return (
@@ -26,7 +27,7 @@ function Experience(props) {
             <img className="Code" src={Code} ></img>
             <div className='Title'>
               <p>Codebase Project Developer</p>
-              <p>New Berkeley, CA</p>
+              <p>NewBerkeley, CA</p>
             </div>
           </div> 
           <div className='Paragraph-Body'>
@@ -61,7 +62,7 @@ function Experience(props) {
           </div>
         </div>
       </div>
-      
+      <a href= "https://lappartement4f.com/"><img className="croiss" src={croiss} ></img></a>
     </div>
   );
 }

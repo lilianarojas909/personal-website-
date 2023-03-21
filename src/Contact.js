@@ -19,7 +19,7 @@ function Contact(props) {
             
           </div>
         <div className='ContactBackground'>
-          email: lilirs909@berkeley.edu 
+          email me @ lilirs909@berkeley.edu 
           
         </div>
     </div>
